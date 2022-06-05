@@ -1,0 +1,32 @@
+.footer__copyright {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.15;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+    color: #fff;
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: end;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__copyright {
+        margin-top: 24px;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .footer__copyright {
+        margin-top: 24px;
+        line-height: 1;
+        width: 200px;
+    }
+}

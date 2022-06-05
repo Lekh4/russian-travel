@@ -1,0 +1,11 @@
+.places__place-website {
+    -ms-flex-item-align: end;
+    -ms-grid-row-align: end;
+    align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+    .places__place-website {
+        padding-left: 16px;
+    }
+}
