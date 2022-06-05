@@ -1,21 +1,15 @@
 .places__place-paragraph {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.6;
-    color: #fff;
-    margin: 0;
-    grid-area: paragraph;
+    margin-bottom: 27px;
+}
+
+@media screen and (max-width: 1024px) {
+    .places__place-paragraph {
+        margin-bottom: 26px;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .places__place-paragraph {
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .places__place-paragraph {
-        width: calc(100% - 2 * 16px);
-        margin: 0 auto;
+        margin-bottom: 25px;
     }
 }
