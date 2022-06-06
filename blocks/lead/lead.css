@@ -13,7 +13,7 @@
     align-items: center;
     max-width: 984px;
     margin: 0 auto;
-    padding-top: 65px;
+    padding-top: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -25,5 +25,12 @@
 @media screen and (max-width: 768px) {
     .lead {
         max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 320px;
+        padding-top: 48px;
     }
 }

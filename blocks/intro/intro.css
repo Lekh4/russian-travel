@@ -19,7 +19,15 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
+    .intro {
+        width: calc(100% - 2 * 24px);
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 520px) {
     .intro {
         width: calc(100% - 2 * 16px);
         padding-top: 64px;

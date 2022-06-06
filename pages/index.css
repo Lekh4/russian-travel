@@ -1,3 +1,4 @@
+@import url('../vendor/normalize.css');
 @import url('../vendor/fonts/inter/inter.css');
 
 @import url('../blocks/page/page.css');
@@ -34,7 +35,7 @@
 @import url('../blocks/places/__place-website/places__place-website.css');
 @import url('../blocks/places/__place-url-heading/places__place-url-heading.css');
 @import url('../blocks/places/__place-link/places__place-link.css');
-@import url('../blocks/places/__place-image/places__place-image');
+@import url('../blocks/places/__place-image/places__place-image.css');
 @import url('../blocks/places/__item-paragraph/places__item-paragraph.css');
 @import url('../blocks/places/__place-paragraph/places__place-paragraph.css');
 

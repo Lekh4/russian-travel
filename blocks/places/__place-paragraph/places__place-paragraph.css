@@ -1,5 +1,10 @@
 .places__place-paragraph {
     margin-bottom: 27px;
+    margin-top: 0;
+}
+
+.places__place-paragraph:last-child {
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
