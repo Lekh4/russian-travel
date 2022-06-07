@@ -4,7 +4,6 @@
     font-style: normal;
     line-height: 1;
     color: #fff;
-    max-width: 97%;
     grid-area: title;
     margin: 0;
     -webkit-font-smoothing: antialiased;
@@ -19,7 +18,6 @@
     .places__place-title {
         font-size: 42px;
         line-height: 1.1;
-        max-width: 98%;
     }
 }
 

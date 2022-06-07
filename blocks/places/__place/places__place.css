@@ -39,7 +39,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 760px) {
     .places__place {
         gap: 32px;
         -ms-grid-columns: 1fr;
